@@ -54,4 +54,14 @@ while True:
         cv2.rectangle(imgNew, (cx - w // 2, cy - h // 2), (cx + w // 2, cy + h // 2), colorR, cv2.FILLED)
         cvzone.cornerRect(imgNew, (cx - w // 2, cy - h // 2, w, h), 20, rt=0)
 
- 
+    out = img.copy()
+    alpha = 0.5  # Transparency factor
+    mask = imgNew.astype(bool)
+    out[mask] = cv2.addWeighted(img, alpha, imgNew, 1 - alpha, 0)[mask]
+
+    cv2.imshow("Image", out)  # Display the output image
+    if cv2.waitKey(1) & 0xFF == ord('q'):  # Press 'q' to quit
+        break
+
+cap.release()
+cv2.destroyAllWindows()
