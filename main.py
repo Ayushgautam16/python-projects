@@ -1,7 +1,7 @@
 # import cv2
 # from cvzone.HandTrackingModule import HandDetector
 # import cvzone
-import numpy as np
+# import numpy as np
 
 # Initialize video capture and hand detector
 cap = cv2.VideoCapture(0)  # Change to '0' to use the default webcam
