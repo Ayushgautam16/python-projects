@@ -1,6 +1,6 @@
 # import cv2
 # from cvzone.HandTrackingModule import HandDetector
-import cvzone
+# import cvzone
 import numpy as np
 
 # Initialize video capture and hand detector
