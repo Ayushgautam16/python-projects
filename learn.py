@@ -11,6 +11,135 @@
 # print("this is the example  'hi'")
 
 
+# ***********types of operators*******
+# Arithmetic Operators:
+# These perform mathematical operations: 
+# + (Addition) 
+# - (Subtraction) 
+# * (Multiplication) 
+# / (Division) 
+# % (Modulo/Remainder) 
+# // (Floor Division) 
+# ** (Exponentiation) 
+# Assignment Operators:
+# Used to assign values to variables: 
+# = (Assignment) 
+# += (Addition and Assignment) 
+# -= (Subtraction and Assignment) 
+# *= (Multiplication and Assignment) 
+# /= (Division and Assignment) 
+# %= (Modulo and Assignment) 
+# //= (Floor Division and Assignment) 
+# **= (Exponentiation and Assignment) 
+# Comparison Operators:
+# Used to compare values: 
+# == (Equal to) 
+# != (Not equal to) 
+# > (Greater than) 
+# < (Less than) 
+# >= (Greater than or equal to) 
+# <= (Less than or equal to) 
+# Logical Operators:
+# Used to combine or modify boolean expressions: 
+# and (Logical AND) 
+# or (Logical OR) 
+# not (Logical NOT) 
+# Identity Operators:
+# Used to check if two objects are the same object in memory: 
+# is (Object identity) 
+# is not (Not object identity) 
+# Membership Operators:
+# Used to check if a value is a member of a sequence (like a list, tuple, string): 
+# in (Membership) 
+# not in (Not membership) 
+# Bitwise Operators:
+# Used to perform operations on the binary representation of integers: 
+# & (AND) 
+# | (OR) 
+# ^ (XOR) 
+# ~ (NOT) 
+# << (Left shift) 
+# >> (Right shif
+
+# bydefault python uses 4 spaces for the indentation 
+
+
+# source code(.py) -> byte code(.pyc) ->binary(machine code)->computer(o/p)
+# python virtual machine (PVM) -> interpreter
+# python is the interpreted language
+# python is the high level language
+# python is the object oriented language
+# python is the dynamic language
+# python is the platform independent language
+# python is the open source language
+# python is the extensible language
+# python is the embeddable language
+# python is the portable language
+# python is the interactive language
+# python is the extensible language
+
+# keywords in python are 
+# and, as, assert, break, class, continue, def, del, elif, else, except, False, finally, for, from, global, if, import, in, is, lambda, None, nonlocal, not, or, pass, raise, return, True, try, while with statement with yield
+# keywords are the reserved words in python
+# keywords are the words that have special meaning in python
+# keywords are the words that cannot be used as variable names in python
+
+# constants in python 
+# are the variables that cannot be changed in python
+# constants are the variables that have fixed values in python
+
+# variable 
+# value ke liye alg memory store hoti hai 
+
+# membership operator 
+# in, not in 
+
+
+# st1 = "ayushh hai naam mera"
+# print ("mera nia" in st1)
+# # false 
+# st1 = "ayushh hai naam mera"
+# print ("mera" in st1)
+# # true 
+
+# identity opwerator used for the comparison in b/w two object are same or not 
+# a = 10
+# b=10
+# print(a is b)
+# # true 
+# is not is also the identity operator 
+
+# membershup operator are in , not in 
+
+
+# operator precedence and associativity
+# (), **,=-~,*/ //%, +-,<<>>, &, ^, >,>=
+
+# implicit type conversion 
+# # apne aap coversion kr leta hai conversion 
+
+# a = 5
+# b= 6
+# result = (a/b)
+# print (result)
+# print(type(result))
+# # 0.8333333333333334
+# # <class 'float'>
+
+
+# # explicit type conversion type casting 
+# a = 5
+# b = 's'
+# result = a + int(b)
+# print (result)
+# # int(n)
+# # float(k)
+
+# input and output 
+
+# a = int (input("enter the value")) 
+# print(a)
+
 # print('this \' is the example  ')
 
 # print('hi '+'there')
@@ -40,11 +169,45 @@
 
 # while condition<10:
 #     print(condition)
-#     condition +=1
+#     # condition +=1           # this condition is must otherwise it runs for the infinite time 
+
+
+
+# i = 1
+# while (i<20):
+#     print(i)
+#     i+=1
+#     if(i==3):
+#         continue
 
 # while True:
 #     print('doing stuff')
 #     this is the infinite loop
+
+
+
+# for i in range(1,5,2):
+#     print(i)
+    # (initialization, end value, stepping)
+# st = 'fsffsd'
+
+# for chup in st:
+#     print(chup)
+# f
+# s
+# f
+# f
+# s
+# d
+
+
+
+# for loop in range 
+# a = range(5)
+# for i in a:
+#     print(i)
+
+
 
 
 # if statements
