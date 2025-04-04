@@ -11,6 +11,38 @@
 # print("this is the example  'hi'")
 
 
+# relational operator
+# <,<=,
+# Operator	Description	Example	Output
+# ==	Equal to	5 == 5	True
+# !=	Not equal to	5 != 3	True
+# >	Greater than	7 > 3	True
+# <	Less than	4 < 6	True
+# >=	Greater than or equal to	8 >= 8	True
+# <=
+
+# # logical 
+# and/ or/ not
+
+# Assignment operator
+
+# Operator	Description	Example	Equivalent To
+# =	Assign value	a = 10	a = 10
+# +=	Add and assign	a += 5	a = a + 5
+# -=	Subtract and assign	a -= 3	a = a - 3
+# *=	Multiply and assign	a *= 2	a = a * 2
+# /=	Divide and assign	a /= 4	a = a / 4
+# //=	Floor divide and assign	a //= 3	a = a // 3
+# %=	Modulus and assign	a %= 7	a = a % 7
+# **=	Exponentiation and assign	a **= 2	a = a ** 2
+# &=	Bitwise AND and assign	a &= 1	a = a & 1
+# `	=`	Bitwise OR and assign	`a
+# ^=	Bitwise XOR and assign	a ^= 3	a = a ^ 3
+# >>=	Right shift and assign	a >>= 2	a = a >> 2
+# <<=
+
+
+
 # ***********types of operators*******
 # Arithmetic Operators:
 # These perform mathematical operations: 
@@ -200,6 +232,17 @@
 # s
 # d
 
+# pass statement 
+
+# if 5>2:
+#     pass
+# else:
+#     print("vdvv")
+# print("raam raam bhaiya")
+
+
+# if false hota hai to pass statement else part ko run krega simply 
+
 
 
 # for loop in range 
@@ -314,37 +357,79 @@
 # b=2
 # print(a//b)
 
-# relational operator
-# <,<=,
-# Operator	Description	Example	Output
-# ==	Equal to	5 == 5	True
-# !=	Not equal to	5 != 3	True
-# >	Greater than	7 > 3	True
-# <	Less than	4 < 6	True
-# >=	Greater than or equal to	8 >= 8	True
-# <=
 
-# # logical 
-# and/ or/ not
+# *************arrays*******
+# python does not support the multidimensional array but we can use this MD array with use of the third part package of numpy
 
-# Assignment operator
+# tareeka initialize krne ke liye 
+# import array
+# arr = array.array('vd',[elmt])
 
-# Operator	Description	Example	Equivalent To
-# =	Assign value	a = 10	a = 10
-# +=	Add and assign	a += 5	a = a + 5
-# -=	Subtract and assign	a -= 3	a = a - 3
-# *=	Multiply and assign	a *= 2	a = a * 2
-# /=	Divide and assign	a /= 4	a = a / 4
-# //=	Floor divide and assign	a //= 3	a = a // 3
-# %=	Modulus and assign	a %= 7	a = a % 7
-# **=	Exponentiation and assign	a **= 2	a = a ** 2
-# &=	Bitwise AND and assign	a &= 1	a = a & 1
-# `	=`	Bitwise OR and assign	`a
-# ^=	Bitwise XOR and assign	a ^= 3	a = a ^ 3
-# >>=	Right shift and assign	a >>= 2	a = a >> 2
-# <<=
 
-# bitwise operator
-# ^,|,&&,<<,>>,~
+# or 
 
-# membership operator 
+
+# from array import *
+# arr = array('vd')
+
+# or 
+
+# import array as ar
+# name = ar.array('i',[12,1,3,4,45])
+
+
+# yahan i basically data type hai i and f 
+
+# print(name[4])
+
+# for i in name:
+#     print(i)
+# yahan num i ki jagah me likha hua kuch bhi likh skte hai
+
+# n = len(name)
+# for i in range(n):
+#     print(name)
+# array('i', [12, 1, 3, 4, 45])
+# array('i', [12, 1, 3, 4, 45])
+# array('i', [12, 1, 3, 4, 45])
+# array('i', [12, 1, 3, 4, 45])
+# array('i', [12, 1, 3, 4, 45])
+
+# for i in range(n):
+#     print(name[i])
+# 12
+# 1
+# 3
+# 4
+# 45
+
+# from array import *
+
+# name = array('i',[11,2324,33,3,553,54])
+# i=0
+# n = len(name)
+
+# while(i<n):
+#     print(name[i])
+#     i+=1
+# name.append(102)
+# print ("array after the append ")
+# i=0
+# n = len(name)
+
+# while(i<n):
+#     print(name[i])
+#     i+=1
+
+
+# user input in the array 
+
+from array import *
+
+arr = array('i', [])
+n= int(input("enter the of elements you wanted to enter: \n"))
+for i in range(n):
+    arr.append(int(input("enter the elements: ")))
+
+for i in range(len(arr)):
+    print(arr[i])
