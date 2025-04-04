@@ -424,7 +424,7 @@
 
 # user input in the array 
 
-from array import *
+# from array import *
 
 arr = array('i', [])
 n= int(input("enter the of elements you wanted to enter: \n"))
