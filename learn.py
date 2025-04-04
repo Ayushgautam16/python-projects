@@ -427,7 +427,7 @@
 # from array import *
 
 # arr = array('i', [])
-n= int(input("enter the of elements you wanted to enter: \n"))
+# n= int(input("enter the of elements you wanted to enter: \n"))
 for i in range(n):
     arr.append(int(input("enter the elements: ")))
 
