@@ -4,7 +4,7 @@
 # import numpy as np
 
 # Initialize video capture and hand detector
-cap = cv2.VideoCapture(0)  # Change to '0' to use the default webcam
+# cap = cv2.VideoCapture(0)  # Change to '0' to use the default webcam
 cap.set(3, 1280)  # Width of the frame
 cap.set(4, 720)   # Height of the frame
 detector = HandDetector(detectionCon=0.8)  # Hand detection confidence
