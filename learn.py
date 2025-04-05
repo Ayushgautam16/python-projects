@@ -431,5 +431,5 @@
 # for i in range(n):
     # arr.append(int(input("enter the elements: ")))
 
-for i in range(len(arr)):
+# for i in range(len(arr)):
     # print(arr[i])
