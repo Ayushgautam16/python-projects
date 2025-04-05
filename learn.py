@@ -432,4 +432,4 @@
     # arr.append(int(input("enter the elements: ")))
 
 for i in range(len(arr)):
-    print(arr[i])
+    # print(arr[i])
