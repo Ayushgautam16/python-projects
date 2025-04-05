@@ -429,7 +429,7 @@
 # arr = array('i', [])
 # n= int(input("enter the of elements you wanted to enter: \n"))
 # for i in range(n):
-    arr.append(int(input("enter the elements: ")))
+    # arr.append(int(input("enter the elements: ")))
 
 for i in range(len(arr)):
     print(arr[i])
